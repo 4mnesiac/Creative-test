@@ -1,0 +1,16 @@
+@import url('./__button/header__button.css');
+@import url('./__logo/header__logo.css');
+@import url('./__wrapper/header__wrapper.css');
+
+.header {
+    background: #292961;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:auto;
+    right:0;
+    transition: margin 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,width 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    width: calc(100% - 240px);
+    margin-left:240px;
+}

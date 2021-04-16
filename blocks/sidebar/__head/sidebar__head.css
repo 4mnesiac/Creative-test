@@ -1,0 +1,8 @@
+.sidebar__head {
+    min-height: 56px;
+    display: flex;
+    padding: 0px 8px;
+    min-height: 56px;
+    align-items: center;
+    justify-content: flex-end;
+}

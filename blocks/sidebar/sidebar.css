@@ -1,0 +1,21 @@
+@import url('./__wrapper/sidebar__wrapper.css');
+@import url('./__title/sidebar__title.css');
+@import url('./__menu/sidebar__menu.css');
+@import url('./__menu-item/sidebar__menu-item.css');
+@import url('./__button/sidebar__button.css');
+@import url('./__head/sidebar__head.css');
+
+.sidebar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 240px;
+    height: 100%;
+    color: #000;
+    background-color: #fafafa;
+    transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+@media screen and (max-width: 1200px) {
+    
+}
+
